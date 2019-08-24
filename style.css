@@ -1,0 +1,28 @@
+.showMenu {
+    padding: 10px 0;
+    color: white;
+    background:  #009688;
+    text-align: center;
+    display: none;
+    font-size: 1.3em;
+    
+}  
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #menu {
+    display: block;
+}
+
+.showMenu {
+    display: block;
+}
+
+#menu li {
+background-color:  black;
+}
+
+#menu li .hidden li {
+background-color: #009688;
+} 
