@@ -3,7 +3,7 @@ body{
 }
 
 nav{
-    background: #000000;
+    background: #d6191e;
     height: 52px;
     width: 100%;
     position: fixed;
@@ -51,27 +51,46 @@ nav ul li a {
     color: #ffffff;
     padding: 15px 25px; font-size: 1.2em;
     box-sizing: border-box;
-    border-right: solid 2px #000000;
-    border-left: solid 2px #000000;
+    border-right: solid 2px #d6191e;
+    border-left: solid 2px #d6191e;
 }
 
 nav ul ul li a{
     font-size: 1rem;
-    border-bottom: solid 2px #000000;
+    border-bottom: solid 2px #d6191e;
 }
 
 nav ul ul li:first-child a{
-    border-top: solid 2px #000000;
+    border-top: solid 2px #d6191e;
 }
 
 nav ul li:hover a{
     background: #ffffff;
-    color: #000000;
+    color: #d6191e;
     text-decoration: none;
     transition: 0.5s;
 }
 
 nav ul li li:hover a{
-    background: #000000;
+    background: #d6191e;
     color: #ffffff;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 3em;
+    max-width: 1280px;
+    width: 90%;
+}
+
+.main{
+    height: 200px;
+    width: 200px;
+    margin-right: 2em;
+    display: inline-block;
+    text-align: center;
+}
+
+h3{
+    text-decoration: none;
 }
